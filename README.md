@@ -588,5 +588,3 @@ Here are first 10 companies from the Top Companies API
 | <img src="https://bookface-images.s3.amazonaws.com/small_logos/251df7a6d1d16ee11aac63b910791aca861aff29.png" width="50" height="50" /> | HelloSign  | eSignature software for small and mid-market businesses.                |
 | <img src="https://bookface-images.s3.amazonaws.com/small_logos/e57fe3f2f5b8a158002acd8fef99c01e7294b55c.png" width="50" height="50" /> | Fivestars  | Customer loyalty and payments platform for small businesses.            |
 | <img src="https://bookface-images.s3.amazonaws.com/small_logos/4f3a455935f36a6655742aae286b206df1cd13bd.png" width="50" height="50" /> | GOAT Group | Platform for the greatest products from the past, present and future.   |
-
-test
