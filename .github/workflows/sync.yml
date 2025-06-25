@@ -1,0 +1,16 @@
+name: Sync upstream             # keeps your fork current
+on:
+  schedule:                     # run every 6 h (00, 06, 12, 18 UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch:            # manual “Run workflow” button
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest      # GitHub-hosted runner – free for public repos
+    steps:
+      - uses: tgymnich/fork-sync@v1   # tiny action that FF-merges upstream → fork
+        with:
+          owner: yc-oss          # upstream owner
+          repo: api              # upstream repo name
+          head: main             # your fork’s branch to update
+          base: main             # upstream branch to follow
